@@ -8,4 +8,5 @@ urlpatterns = [
     path('', views.index, name="index"),
     path('posts/', views.group_posts, name="posts_list"),
     path('group/<slug:slug>/', views.group_posts, name="group_list"),
+    path('')
 ]
